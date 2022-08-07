@@ -1,0 +1,18 @@
+
+input{
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 65vw;
+    margin: 0 15% 15px 15%;
+}
+input:nth-child(5) {
+
+    background-color: rgb(255, 98, 0);
+    border: none;
+    cursor: pointer;
+    margin: 0 17.3%;
+
+}
+p, h1{
+    margin: 20px 15% 15px 15%;  
+}

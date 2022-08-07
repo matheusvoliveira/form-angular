@@ -1,0 +1,7 @@
+<!-- Testing ngModel/two way binding in a form  -->
+<h1>Add your email</h1>
+<input type="text" placeholder="First Name" [(ngModel)]="firstName">
+<input type="text" placeholder="Last Name" [(ngModel)]="lastName">
+<input type="email" placeholder="Email" [(ngModel)]="email">
+<input type="button" value="submit" name="submit"(click)="submit()">
+<p>{{blankSpace}}</p>
